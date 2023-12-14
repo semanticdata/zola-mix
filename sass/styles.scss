@@ -1,0 +1,21 @@
+@charset "utf-8";
+@use "bulma";
+@use "fonts";
+// @use "fontawesome-all-min";
+
+body {
+  font-family: Bitter;
+}
+
+a {
+  color: brown !important;
+}
+a:hover {
+  font-weight: 600;
+  color: peru !important;
+  text-decoration: underline;
+}
+// Force details, toc open/closed based on page width.
+details {
+  --details-force-closed: (max-width: 47.9375em);
+}

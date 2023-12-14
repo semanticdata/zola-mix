@@ -1,0 +1,23 @@
+base_url = "https://semanticdata.github.io/zola-mix/"
+title = "Zola Mix"
+description = "A Zola theme."
+
+compile_sass = true
+build_search_index = false
+minify_html = false
+generate_feed = false
+
+author = "Miguel Pimentel"
+
+[markdown]
+highlight_code = true
+external_links_target_blank = true
+smart_punctuation = true
+
+[extra]
+internalLinks = [
+  { url = "/", name = "Home" },
+  { url = "test", name = "Test" },
+  { url = "posts", name = "Blog" },
+  { url = "projects", name = "Projects" },
+]

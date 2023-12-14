@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+<!-- Layout for all non-blog and non-project sections. -->
+{% block content %}
+{{ section.content | safe }}
+{% endblock content %}
