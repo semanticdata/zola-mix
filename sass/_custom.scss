@@ -1,11 +1,12 @@
 // Custom CSS here
 a {
-  color: rgb(212, 85, 127);
+  // color: rgb(87, 35, 52);
   font-weight: bold;
 }
 
 a:hover {
-  text-decoration: rgb(212, 85, 127) underline wavy;
+  color: rgb(199, 45, 96);
+  // text-decoration: rgb(212, 85, 127) underline wavy;
 }
 
 .section {
@@ -34,4 +35,25 @@ a.navbar-item:hover,
 #site-navbar.navbar,
 #social-nav.navbar {
   justify-content: center;
+}
+
+.content p {
+  text-align: justify;
+}
+
+// Tables
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  max-width: 100%;
+}
+
+table thead th,
+table tfoot th {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+table th,
+table td {
+  padding: 4px !important;
 }
