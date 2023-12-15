@@ -8,10 +8,10 @@ minify_html = false
 generate_feed = false
 
 author = "Miguel Pimentel"
-taxonomies = [
-  { name = "categories", feed = false },
-  { name = "tags", feed = false },
-]
+# taxonomies = [
+#   { name = "categories", feed = false },
+#   { name = "tags", feed = false },
+# ]
 
 [markdown]
 highlight_code = true
@@ -21,7 +21,7 @@ smart_punctuation = true
 [extra]
 internalLinks = [
   # { url = "/", name = "Home" },
-  { url = "test", name = "Test" },
   { url = "posts", name = "Blog" },
   { url = "projects", name = "Projects" },
+  { url = "test", name = "Test" },
 ]

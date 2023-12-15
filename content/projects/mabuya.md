@@ -7,6 +7,7 @@ source: "https://github.com/semanticdata/mabuya"
 compartir: true
 category: Projects
 ---
+
 ## Introduction
 
 Mabuya is a minimal Zola theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog.

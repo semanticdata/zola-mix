@@ -32,7 +32,7 @@
         {% endif %}
       </div>
       <div class="navbar-menu">
-        <ul class="navbar-end navbar-thing">
+        <ul class="navbar-end">
           {% for link in config.extra.internalLinks %}
           <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name }}</a>
           {% endfor %}

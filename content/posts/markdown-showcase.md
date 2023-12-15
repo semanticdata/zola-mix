@@ -87,13 +87,15 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
 * Item
+
  1. First Sub-item
  2. Second Sub-item
 
-1. Numbered Item
-2. Another one
+ 1. Numbered Item
+ 2. Another one
  1. Sub-item
- * Unordered again
+
+* Unordered again
 
 ## Code
 

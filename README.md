@@ -10,7 +10,7 @@
 
 ## Introduction
 
-mix is a [Zola](https://www.getzola.org) theme.
+Mix is a [Zola](https://www.getzola.org) theme built with Bulma.
 
 Check out the live [Demo](https://miguelpimentel.do/zola-mix/).
 

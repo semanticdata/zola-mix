@@ -14,6 +14,6 @@ Portfolio is a [Zola](https://www.getzola.org) theme. It's based on the [Portfol
 
 ## Acknowledgments
 
-Especial thanks to the [Portfolio](https://github.com/jamigibbs/portfolio) theme for [Jekyll](https://jekyllrb.com/). They provided both the bulding blocks, and the inspiration necessary to make this happen.
+Especial thanks to the [Portfolio](https://github.com/jamigibbs/portfolio) theme for [Jekyll](https://jekyllrb.com/). They provided both the bulding blocks, and the inspiration necessary to make this project happen.
 
 Icons used in this project are part of <a href="https://uxwing.com/">UXWing</a>'s collection. Take a look at their <a href="https://uxwing.com/license">license</a>.

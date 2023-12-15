@@ -1,21 +1,21 @@
 // Custom CSS here
 a {
-  color: palevioletred;
+  color: rgb(212, 85, 127);
   font-weight: bold;
 }
+
 a:hover {
-  // color: peru !important;
-  text-decoration: underline;
+  text-decoration: rgb(212, 85, 127) underline wavy;
 }
+
 .section {
   padding: 1.5rem 2rem;
 }
-ul.social-list {
-  justify-content: center;
-}
+
 .post-title {
   margin-top: 0 !important;
 }
+
 .social-list {
   display: flex;
   gap: 2rem;
@@ -23,14 +23,15 @@ ul.social-list {
     font-size: 1.25rem;
   }
 }
+
+a.navbar-item:hover,
 .footer {
-  background: inherit;
+  background: transparent;
 }
+
 .page-list,
+.social-list,
 #site-navbar.navbar,
 #social-nav.navbar {
   justify-content: center;
-}
-.navbar-thing {
-  align-items: center;
 }
