@@ -1,5 +1,5 @@
 base_url = "https://semanticdata.github.io/zola-mix/"
-title = "Zola Mix"
+title = "Mix"
 description = "A Zola theme."
 
 compile_sass = true
@@ -8,6 +8,10 @@ minify_html = false
 generate_feed = false
 
 author = "Miguel Pimentel"
+taxonomies = [
+  { name = "categories", feed = false },
+  { name = "tags", feed = false },
+]
 
 [markdown]
 highlight_code = true

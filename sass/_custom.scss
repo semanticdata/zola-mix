@@ -1,0 +1,30 @@
+// Custom CSS here
+a {
+  color: brown;
+  font-weight: bold;
+}
+a:hover {
+  font-weight: 600;
+  color: peru !important;
+  text-decoration: underline;
+}
+.section {
+  padding: 1.5rem 2rem;
+}
+ul.navbar-brand {
+  justify-content: center;
+}
+.post-title {
+  margin-top: 0 !important;
+}
+.social-list {
+  justify-content: center;
+  display: flex;
+  gap: 1.5rem;
+  & i {
+    font-size: 1.25rem;
+  }
+}
+.footer {
+  background: inherit;
+}

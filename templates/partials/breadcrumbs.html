@@ -1,8 +1,6 @@
 <nav class="breadcrumb breadcrumb-container" aria-label="breadcrumbs">
-  <ul>
-
+    <ul>
     <li><a class="breadcrumb-path" href="/">Home</a></li>
-
     {% set current = section | default(value=page) %}
     {% for ancestor in current.ancestors %}
     {% if loop.first %}
@@ -13,7 +11,7 @@
       <a class="breadcrumb-path" href="{{ section.permalink }}">{{ section.title }}</a>
     </li>
     {% endfor %}
-
+    
     <li class="is-active"><a class="breadcrumb-path" href="{{ current.permalink }}">{{ current.title }}</a></li>
 
   </ul>
