@@ -1,5 +1,5 @@
-<nav class="navbar">
-  <ul id="navbarMenu" class="navbar-brand">
+<nav id="site-navbar" class="navbar">
+  <ul id="navbarMenu" class="navbar-brand page-list">
     {% for link in config.extra.internalLinks %}
     <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name }}</a>
     {% endfor %}

@@ -1,30 +1,36 @@
 // Custom CSS here
 a {
-  color: brown;
+  color: palevioletred;
   font-weight: bold;
 }
 a:hover {
-  font-weight: 600;
-  color: peru !important;
+  // color: peru !important;
   text-decoration: underline;
 }
 .section {
   padding: 1.5rem 2rem;
 }
-ul.navbar-brand {
+ul.social-list {
   justify-content: center;
 }
 .post-title {
   margin-top: 0 !important;
 }
 .social-list {
-  justify-content: center;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   & i {
     font-size: 1.25rem;
   }
 }
 .footer {
   background: inherit;
+}
+.page-list,
+#site-navbar.navbar,
+#social-nav.navbar {
+  justify-content: center;
+}
+.navbar-thing {
+  align-items: center;
 }
