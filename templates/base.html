@@ -16,30 +16,32 @@
 <body>
 
   <header class="section">
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <a href="{{ config.base_url}}" class="navbar-item">
-          <h1 class="title">
-            {% if config.title %}
-            {{ config.title }}
-            {% else %}
-            Site Title
-            {% endif %}
-          </h1>
-        </a>
-        {% if config.description %}
-        <h2 class="subtitle is-6">{{ config.description }}</h2>
-        {% endif %}
-      </div>
-      <div class="navbar-menu">
-        <ul class="navbar-end">
-          {% for link in config.extra.internalLinks %}
-          <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name }}</a>
-          {% endfor %}
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="{{ config.base_url}}" class="navbar-item">
+            <h1 class="title">
+              {% if config.title %}
+              {{ config.title }}
+              {% else %}
+              Site Title
+              {% endif %}
+            </h1>
+          </a>
+          {% if config.description %}
+          <h2 class="subtitle is-6">{{ config.description }}</h2>
+          {% endif %}
+        </div>
+        <div class="navbar-menu">
+          <ul class="navbar-end">
+            {% for link in config.extra.internalLinks %}
+            <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name }}</a>
+            {% endfor %}
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main class="section">
