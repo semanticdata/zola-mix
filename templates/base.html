@@ -16,7 +16,7 @@
 <body>
 
   <header class="section">
-    <div class="container">
+    <div class="container is-max-desktop">
       <nav class="navbar">
         <div class="navbar-brand">
           <a href="{{ config.base_url}}" class="navbar-item">
@@ -45,7 +45,7 @@
   </header>
 
   <main class="section">
-    <div class="container">
+    <div class="container is-max-desktop">
       {% block breadcrumbs %}{% endblock breadcrumbs %}
       <div class="content">
         {% block content %}{% endblock content %}
@@ -57,7 +57,7 @@
     {# <div class="has-text-centered">
       <p>Powered by <strong>Bulma</strong> and Zola.</p>
     </div> #}
-    {% include "partials/navbar.html" %}
+    {# {% include "partials/navbar.html" %} #}
     {% include "partials/social-links.html" %}
   </footer>
 

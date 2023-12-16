@@ -1,6 +1,68 @@
-{% extends "base.html" %}
+{# {% extends "base.html" %} #}
 
 <!-- Layout for the homepage. -->
-{% block content %}
+{# {% block content %}
 {{ section.content | safe }}
-{% endblock content %}
+{% endblock content %} #}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <meta name="description" itemprop="about" content="{{ config.description | safe }}">
+  {#
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> #}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="{{ get_url(path='styles.css') }}">
+</head>
+
+<body>
+  <div class="homepage wide section">
+
+    <header>
+          <nav class="navbar">
+            <div class="navbar-brand">
+              <h1 class="title">
+                  <a href="{{ config.base_url}}" class="navbar-item">
+                  {% if config.title %}
+                  {{ config.title }}
+                  {% else %}
+                  Site Title
+                  {% endif %}
+                </a>
+              </h1>
+              {% if config.description %}
+              <h2 class="subtitle is-6">{{ config.description }}</h2>
+              {% endif %}
+            </div>
+            <div class="navbar-menu">
+              <ul class="navbar-end">
+                {% for link in config.extra.internalLinks %}
+                <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name
+                  }}</a>
+                {% endfor %}
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <main class="container content">
+          <div class="">
+            {% if section.content %}
+            {{ section.content | safe }}
+            {% endif %}
+          </div>
+    </main>
+
+    <footer class="footer">
+      {% include "partials/social-links.html" %}
+    </footer>
+
+  </div>
+</body>
+
+</html>
