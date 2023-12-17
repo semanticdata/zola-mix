@@ -63,12 +63,10 @@ table td {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-.wide {
   margin: 0 auto;
   max-width: 750px;
-  // padding: 1rem;
 }
+
 .container {
   flex-grow: 0;
 }
