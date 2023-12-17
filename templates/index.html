@@ -23,37 +23,71 @@
   <div class="homepage section">
 
     <header>
-          <nav class="navbar">
-            <div class="navbar-brand">
-              <h1 class="title">
-                  <a href="{{ config.base_url}}" class="navbar-item">
-                  {% if config.title %}
-                  {{ config.title }}
-                  {% else %}
-                  Site Title
-                  {% endif %}
-                </a>
-              </h1>
-              {% if config.description %}
-              <h2 class="subtitle is-6">{{ config.description }}</h2>
+        <div class="navbar-brand">
+          <img class="pfp" src="./pfp-2.png" alt="Profile Picture" width="100px" />
+          <h1 class="title">
+            <a href="{{ config.base_url}}" class="navbar-item">
+              {% if config.title %}
+              {{ config.title }}
+              {% else %}
+              Site Title
               {% endif %}
-            </div>
-            <div class="navbar-menu navbar-end">
-              <ul class="">
-                {% for link in config.extra.internalLinks %}
-                <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name
-                  }}</a>
-                {% endfor %}
-                </li>
-              </ul>
-            </div>
-          </nav>
+            </a>
+          </h1>
+          {% if config.description %}
+          <h2 class="subtitle is-6">{{ config.description }}</h2>
+          {% endif %}
+        </div>
+
+      <nav class="navbars">
+        <div class="navbars-brand navbars-links">
+          {# <ul class="navbars-links"> #}
+            {% for link in config.extra.internalLinks %}
+            {# <li> #}
+              <a class="navbars-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name
+                }}</a>
+            {# </li> #}
+            {% endfor %}
+          {# </ul> #}
+        </div>
+        <div class="navbars-menu navbars-icons">
+          {# <ul class="navbars-icons"> #}
+            {# <li> #}
+              <a rel="me" href="https://miguelpimentel.do/" aria-label="Blog" target="_blank" class="navbars-item"><i
+                  class="fa-solid fa-blog"></i></a>
+                {# </li> #}
+            {# <li> #}
+              <a href="https://forgetfulnotes.com/" aria-label="Digital Garden" target="_blank" class="navbars-item">
+                <i class="fa-solid fa-seedling"></i>
+              </a>
+            {# </li> #}
+            {# <li> #}
+              <a href="https://github.com/semanticdata/" aria-label="GitHub" target="_blank" class="navbars-item">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            {# </li> #}
+            {# <li> #}
+              <a rel="me" href="https://instagram.com/miguelapv" aria-label="Instagram" target="_blank"
+                class="navbars-item">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            {# </li> #}
+            {# <li> #}
+              <a href="https://www.linkedin.com/in/miguelpimentel29/" aria-label="LinkedIn" target="_blank"
+                class="navbars-item">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            {# </li> #}
+          {# </ul> #}
+
+        </div>
+      </nav>
     </header>
 
-    <main class="container content">
-            {% if section.content %}
-            {{ section.content | safe }}
-            {% endif %}
+    <main class="content">
+      {% if section.content %}
+      {{ section.content | safe }}
+      {% endif %}
     </main>
 
     <footer class="footer">
