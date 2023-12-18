@@ -23,64 +23,58 @@
   <div class="homepage section">
 
     <header>
-        <div class="navbar-brand">
-          <img class="pfp" src="./pfp-2.png" alt="Profile Picture" width="100px" />
-          <h1 class="title">
-            <a href="{{ config.base_url}}" class="navbar-item">
-              {% if config.title %}
-              {{ config.title }}
-              {% else %}
-              Site Title
-              {% endif %}
-            </a>
-          </h1>
-          {% if config.description %}
-          <h2 class="subtitle is-6">{{ config.description }}</h2>
-          {% endif %}
-        </div>
+      <div class="navbar-brand">
+        <img class="pfp" src="./387-100x100.jpg" alt="Profile Picture" height="75px" width="75px" />
+        <p>
+        <h1 class="site-title">
+          <a href="{{ config.base_url}}" class="navbar-item">
+            {% if config.title %}
+            {{ config.title }}
+            {% else %}
+            Site Title
+            {% endif %}
+          </a>
+        </h1><br>
+        A simple and clean Zola theme.
+        </p>
+        {# {% if config.description %}
+        <h2 class="subtitle is-6">{{ config.description }}</h2>
+        {% endif %} #}
+      </div>
 
       <nav class="navbars">
         <div class="navbars-brand navbars-links">
-          {# <ul class="navbars-links"> #}
-            {% for link in config.extra.internalLinks %}
-            {# <li> #}
-              <a class="navbars-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name
-                }}</a>
-            {# </li> #}
-            {% endfor %}
-          {# </ul> #}
+          {% for link in config.extra.internalLinks %}
+          <a class="navbars-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name
+            }}</a>
+          {% endfor %}
         </div>
-        <div class="navbars-menu navbars-icons">
-          {# <ul class="navbars-icons"> #}
-            {# <li> #}
-              <a rel="me" href="https://miguelpimentel.do/" aria-label="Blog" target="_blank" class="navbars-item"><i
-                  class="fa-solid fa-blog"></i></a>
-                {# </li> #}
-            {# <li> #}
-              <a href="https://forgetfulnotes.com/" aria-label="Digital Garden" target="_blank" class="navbars-item">
-                <i class="fa-solid fa-seedling"></i>
-              </a>
-            {# </li> #}
-            {# <li> #}
-              <a href="https://github.com/semanticdata/" aria-label="GitHub" target="_blank" class="navbars-item">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            {# </li> #}
-            {# <li> #}
-              <a rel="me" href="https://instagram.com/miguelapv" aria-label="Instagram" target="_blank"
-                class="navbars-item">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            {# </li> #}
-            {# <li> #}
-              <a href="https://www.linkedin.com/in/miguelpimentel29/" aria-label="LinkedIn" target="_blank"
-                class="navbars-item">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            {# </li> #}
-          {# </ul> #}
 
+        <div class="navbars-menu navbars-icons">
+          {# <a rel="me" href="https://miguelpimentel.do/" aria-label="Blog" target="_blank" class="navbars-item"><i
+              class="fa-solid fa-blog"></i></a> #}
+          <a href="https://forgetfulnotes.com/" aria-label="Digital Garden" target="_blank" class="navbars-item">
+            <img src="/tree-plant-icon.svg" alt="digital garden" width="20px" height="20px" />
+          </a>
+          {# <i class="fa-regular fa-seedling"></i> #}
+          <a href="https://github.com/semanticdata/" aria-label="GitHub" target="_blank" class="navbars-item">
+            <img src="/github-icon.svg" alt="digital garden" width="20px" height="20px" />
+            {# <i class="fa-brands fa-github"></i> #}
+          </a>
+          <a href="mailto:contact@miguelpimentel.do" aria-label="Email" target="_blank" class="navbars-item">
+            <img src="/envelope-line-icon.svg" alt="digital garden" width="20px" height="20px" />
+            {# <i class="fa-regular fa-envelope"></i> #}
+          </a>
+          {# <a rel="me" href="https://instagram.com/miguelapv" aria-label="Instagram" target="_blank"
+            class="navbars-item">
+            <i class="fa-brands fa-instagram"></i>
+          </a> #}
+          {# <a href="https://www.linkedin.com/in/miguelpimentel29/" aria-label="LinkedIn" target="_blank"
+            class="navbars-item">
+            <i class="fa-brands fa-linkedin"></i>
+          </a> #}
         </div>
+
       </nav>
     </header>
 

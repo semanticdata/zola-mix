@@ -75,6 +75,7 @@ table td {
   display: flex;
   gap: 1.5rem;
   font-size: 18px;
+  min-height: auto;
   // display: inline-block !important;
   // width: 49%;
 }
@@ -88,7 +89,7 @@ table td {
   margin-left: auto;
   display: flex;
   gap: 1.5rem;
-  font-size: 18px;
+  font-size: 20px;
   // display: inline-block !important;
   // width: 49%;
 }
@@ -102,4 +103,8 @@ table td {
 .pfp {
   border-radius: 50%;
   filter: grayscale(1);
+}
+
+.site-title {
+  font-size: 20px;
 }
