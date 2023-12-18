@@ -19,8 +19,8 @@
     <div class="container is-max-desktop">
       <nav class="navbar">
         <div class="navbar-brand">
-          <a href="{{ config.base_url}}" class="navbar-item">
-            <h1 class="title">
+          <a href="{{ config.base_url}}" class="">
+            <h1 class="site-title">
               {% if config.title %}
               {{ config.title }}
               {% else %}
@@ -28,9 +28,12 @@
               {% endif %}
             </h1>
           </a>
-          {% if config.description %}
-          <h2 class="subtitle is-6">{{ config.description }}</h2>
+          {% if section %}
+          <h2 class="">{{ section.title }}</h2>
           {% endif %}
+          {# {% if config.description %}
+          <h2 class="subtitle is-6">{{ config.description }}</h2>
+          {% endif %} #}
         </div>
         <div class="navbar-menu">
           <ul class="navbar-end">
@@ -42,7 +45,22 @@
         </div>
       </nav>
     </div>
+
+
+      <h1 class="site-title">
+        <a href="{{ config.base_url}}" class="navbar-item">
+          {% if config.title %}
+          {{ config.title }}
+          {% else %}
+          Site Title
+          {% endif %}
+        </a>
+      </h1>
+
+
   </header>
+  
+  <hr>
 
   <main class="section">
     <div class="container is-max-desktop">
@@ -54,11 +72,11 @@
   </main>
 
   <footer class="footer">
-    {# <div class="has-text-centered">
-      <p>Powered by <strong>Bulma</strong> and Zola.</p>
-    </div> #}
-    {# {% include "partials/navbar.html" %} #}
-    {% include "partials/social-links.html" %}
+    <div class="has-text-centered">
+      <p>Powered by <strong>Bulma</strong> and Zola.</p><br>
+    </div>
+      {# {% include "partials/navbar.html" %} #}
+      {% include "partials/social-links.html" %}
   </footer>
 
   </section>

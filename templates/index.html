@@ -25,21 +25,15 @@
     <header>
       <div class="navbar-brand">
         <img class="pfp" src="./387-100x100.jpg" alt="Profile Picture" height="75px" width="75px" />
-        <p>
+        <a href="{{ config.base_url}}">
         <h1 class="site-title">
-          <a href="{{ config.base_url}}" class="navbar-item">
             {% if config.title %}
             {{ config.title }}
             {% else %}
             Site Title
             {% endif %}
           </a>
-        </h1><br>
-        A simple and clean Zola theme.
-        </p>
-        {# {% if config.description %}
-        <h2 class="subtitle is-6">{{ config.description }}</h2>
-        {% endif %} #}
+        </h1>
       </div>
 
       <nav class="navbars">
