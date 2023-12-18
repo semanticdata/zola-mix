@@ -67,37 +67,20 @@ table td {
 
 .navbars {
   display: flex;
-  margin: 1rem auto !important;
+  margin: 1rem auto;
 }
 
 .navbars-brand {
-  // background: palegoldenrod !important;
   display: flex;
   gap: 1.5rem;
-  font-size: 18px;
-  min-height: auto;
-  // display: inline-block !important;
-  // width: 49%;
-}
-
-.navbars-links {
-  // display: flex !important;
+  font-size: 20px;
 }
 
 .navbars-menu {
-  // background: palegreen !important;
   margin-left: auto;
   display: flex;
   gap: 1.5rem;
   font-size: 20px;
-  // display: inline-block !important;
-  // width: 49%;
-}
-
-.navbars-icons {
-  // display: flex !important;
-  // margin-left: auto;
-  // flex-wrap: wrap;
 }
 
 .pfp {
