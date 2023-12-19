@@ -24,16 +24,18 @@
 
     <header>
       <div class="navbar-brand">
-        <img class="pfp" src="./387-100x100.jpg" alt="Profile Picture" height="75px" width="75px" />
         <a href="{{ config.base_url}}" aria-label="{{ config.title }}">
-        <h1 class="title">
+        <img class="pfp" src="./387-100x100.jpg" alt="Profile Picture" height="75px" width="75px" />
+        </a>
+        <a href="{{ config.base_url}}" aria-label="{{ config.title }}">
+        <h1 class="title is-3">
             {% if config.title %}
             {{ config.title }}
             {% else %}
             Site Title
             {% endif %}
+          </h1>
           </a>
-        </h1>
       </div>
 
       <nav class="navbars">
