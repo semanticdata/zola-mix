@@ -2,10 +2,6 @@
 title: "Mabuya"
 date: 2023-09-20
 description: "Mabuya—a minimal Zola theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog."
-updated: 2023-11-24
-source: "https://github.com/semanticdata/mabuya"
-compartir: true
-category: Projects
 ---
 
 ## Introduction
@@ -35,10 +31,6 @@ While working on the theme, I have added new functionality and many quality of l
 * Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
 * Optimized for speed and Accesibility.
 * And many other small improvements.
-
-## Screenshots
-
-![website screenshot](https://raw.githubusercontent.com/semanticdata/mabuya/main/screenshot.png)
 
 ## Acknowledgments
 

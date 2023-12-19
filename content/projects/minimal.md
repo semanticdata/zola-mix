@@ -2,10 +2,6 @@
 title: "Minimal"
 date: 2023-11-11
 description: "Minimal—a Zola theme with the goal of helping you build a light, fast, and SEO ready website. It's based on the Minimal theme for Jekyll. "
-updated: 2023-11-24
-source: "https://github.com/semanticdata/zola-minimal"
-compartir: true
-category: Projects
 ---
 
 ## Introduction

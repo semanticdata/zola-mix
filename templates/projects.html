@@ -2,7 +2,10 @@
 
 <!-- Layout for projects section. -->
 {% block content %}
-<h1 class="title">{{ section.title }}</h1>
+{# <h1 class="title">{{ section.title }}</h1>
+{% if section.description %}
+<p class="subtitle">{{ section.description }}</p>
+{% endif %} #}
 {% if section.description %}
 <p class="subtitle">{{ section.description }}</p>
 {% endif %}

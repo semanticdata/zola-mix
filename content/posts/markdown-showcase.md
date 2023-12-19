@@ -1,6 +1,7 @@
 ---
 title: Markdown Showcase
 description: "This is intended as a quick reference and showcase of Markdown's synthax."
+draft: true
 date: 2022-12-31
 # taxonomies:
 #   tags: ["placeholder", "markdown", "reference"]
@@ -210,6 +211,7 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
+<!-- 
 ## Callouts
 
 > [!EXAMPLE] Examples
@@ -258,4 +260,4 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 
 > [!quote] Quote
 >
-> Aliases: quote, cite
+> Aliases: quote, cite -->

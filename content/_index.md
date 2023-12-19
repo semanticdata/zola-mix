@@ -1,10 +1,12 @@
 ---
 ---
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!
+👋 Hi! I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast. I think a lot, work a lot, have existential crises, and know just enough about making websites to make me dangerous. I enjoy writing, reading, coding, listening to music, and love having a problem to solve.
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!
+Like me, all notes contained within should be considered work-in-progress. Expect changes at all content levels. That said, I try not to let perfectionism get in the way. That means what you read here is not authoritative or complete, and is not representative of my best work. Please keep that in mind as you navigate around the garden. I'm glad you are here.
 
-Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!
+Enjoy your visit!
 
-Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque libero expedita laudantium cupiditate!
+> _"I only wrote that poem to test my printer!"_
+
+Thanks for visiting. Please tell your dog I said Hi! 🐶
