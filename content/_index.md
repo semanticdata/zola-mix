@@ -1,12 +1,12 @@
 ---
 ---
 
-👋 Hi! I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast. I think a lot, work a lot, have existential crises, and know just enough about making websites to make me dangerous. I enjoy writing, reading, coding, listening to music, and love having a problem to solve.
+Hi! I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast. I think a lot, work a lot, have existential crises, and know just enough about making websites to make me dangerous. I enjoy writing, reading, coding, listening to music, and love having a problem to solve.
 
-Like me, all notes contained within should be considered work-in-progress. Expect changes at all content levels. That said, I try not to let perfectionism get in the way. That means what you read here is not authoritative or complete, and is not representative of my best work. Please keep that in mind as you navigate around the garden. I'm glad you are here.
+Like me, all notes contained within should be considered work-in-progress. Expect changes at all content levels. That said, I try not to let perfectionism get in the way. That means what you read here is not authoritative or complete, and is not representative of my best work. Please keep that in mind as you navigate around the garden.
 
-Enjoy your visit!
+I'm glad you are here. Enjoy your visit!
 
 > _"I only wrote that poem to test my printer!"_
 
-Thanks for visiting. Please tell your dog I said Hi! 🐶
+Thanks for visiting. Please tell your dog I said Hi!
