@@ -5,8 +5,6 @@ Hi! I'm Miguel—problem solver, hobby developer, music enjoyer, and public infr
 
 Like me, all notes contained within should be considered work-in-progress. Expect changes at all content levels. That said, I try not to let perfectionism get in the way. That means what you read here is not authoritative or complete, and is not representative of my best work. Please keep that in mind as you navigate around the garden.
 
-I'm glad you are here. Enjoy your visit!
+Thanks for visiting. Please tell your dog (or cat) I said Hi!
 
 > _"I only wrote that poem to test my printer!"_
-
-Thanks for visiting. Please tell your dog I said Hi!
