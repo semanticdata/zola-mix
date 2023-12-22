@@ -2,7 +2,7 @@
 title: Test Page
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit."
 date: 2023-11-09
-draft: true
+draft: false
 ---
 
 # Heading Level 1
@@ -39,7 +39,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 ## Links
 
-You can [link](https://example.com/) to external pages. and other internal [[Markdown|links]].
+You can [link](https://example.com/).
 
 ## Blockquotes
 
