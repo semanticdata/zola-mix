@@ -33,8 +33,8 @@
         </div>
         <div class="navbar-menu">
           <ul class="navbar-end">
-            {% for link in config.extra.internalLinks %}
             <a class="navbar-item" href="{{ config.base_url }}" aria-label="{{ config.title }}">Home</a>
+            {% for link in config.extra.internalLinks %}
             <a class="navbar-item" href="{{ get_url(path=link.url )}}/" aria-label="{{ link.name }}">{{ link.name }}</a>
             {% endfor %}
             </li>

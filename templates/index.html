@@ -1,10 +1,3 @@
-{# {% extends "base.html" %} #}
-
-<!-- Layout for the homepage. -->
-{# {% block content %}
-{{ section.content | safe }}
-{% endblock content %} #}
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,17 +18,17 @@
     <header>
       <div class="navbar-brand">
         <a href="{{ config.base_url}}" aria-label="{{ config.title }}">
-        <img class="pfp" src="./387-100x100.jpg" alt="Profile Picture" height="75px" width="75px" />
+          <img class="pfp" src="./387-100x100.jpg" alt="Profile Picture" height="75px" width="75px" />
         </a>
         <a href="{{ config.base_url}}" aria-label="{{ config.title }}">
-        <h1 class="title is-3">
+          <h1 class="title is-3">
             {% if config.title %}
             {{ config.title }}
             {% else %}
             Site Title
             {% endif %}
           </h1>
-          </a>
+        </a>
       </div>
 
       <nav class="navbars">
@@ -47,28 +40,15 @@
         </div>
 
         <div class="navbars-menu navbars-icons">
-          {# <a rel="me" href="https://miguelpimentel.do/" aria-label="Blog" target="_blank" class="navbars-item"><i
-              class="fa-solid fa-blog"></i></a> #}
           <a href="https://forgetfulnotes.com/" aria-label="Digital Garden" target="_blank" class="navbars-item">
-            {# <img src="tree-plant-icon.svg" alt="digital garden" width="20px" height="20px" /> #}
             <i class="fa-solid fa-seedling"></i>
           </a>
           <a href="https://github.com/semanticdata/zola-mix/" aria-label="GitHub" target="_blank" class="navbars-item">
-            {# <img src="github-icon.svg" alt="digital garden" width="20px" height="20px" /> #}
             <i class="fa-brands fa-github"></i>
           </a>
           <a href="mailto:contact@miguelpimentel.do" aria-label="Email" target="_blank" class="navbars-item">
-            {# <img src="envelope-line-icon.svg" alt="digital garden" width="20px" height="20px" /> #}
             <i class="fa-solid fa-envelope"></i>
           </a>
-          {# <a rel="me" href="https://instagram.com/miguelapv" aria-label="Instagram" target="_blank"
-            class="navbars-item">
-            <i class="fa-brands fa-instagram"></i>
-          </a> #}
-          {# <a href="https://www.linkedin.com/in/miguelpimentel29/" aria-label="LinkedIn" target="_blank"
-            class="navbars-item">
-            <i class="fa-brands fa-linkedin"></i>
-          </a> #}
         </div>
 
       </nav>
@@ -79,10 +59,6 @@
       {{ section.content | safe }}
       {% endif %}
     </main>
-
-    {# <footer class="footer">
-      {% include "partials/social-links.html" %}
-    </footer> #}
 
   </div>
 </body>
