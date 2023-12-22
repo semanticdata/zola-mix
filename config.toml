@@ -20,8 +20,6 @@ smart_punctuation = true
 
 [extra]
 internalLinks = [
-  # { url = "/", name = "Home" },
   { url = "posts", name = "Blog" },
   { url = "projects", name = "Projects" },
-  # { url = "test", name = "Test" },
 ]

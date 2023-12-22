@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Mix is a [Zola](https://www.getzola.org) theme built with Bulma.
+Mix is a [Zola](https://www.getzola.org) theme built with [Bulma](https://bulma.io/).
 
 Check out the live [Demo](https://miguelpimentel.do/zola-mix/).
 
@@ -34,10 +34,10 @@ zola serve
 ## Customization
 
 You can customize your configurations, templates and content for yourself. Look
-at the `config.toml`, `theme.toml` and templates files in this repo for an idea.
+at the `config.toml` and templates files in this repo for an idea.
 
 In most cases you only need to modify the content in the `config.toml` file to
-custom your blog, including different expressions in your speaking language.
+customize your blog.
 
 ### Custom CSS styles
 

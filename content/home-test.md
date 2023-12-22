@@ -22,10 +22,8 @@ Like me, all notes contained within should be considered work-in-progress. Expec
 
 I leave you with some fun quotes. Feel free to stop by the Quotes Collection.
 
-> _"I felt the music wash over me. It had me, right then and there."_
-
-> _"The problem with your sink is that I have no idea how to fix it."_
-
+> _"I felt the music wash over me. It had me, right then and there."_  
+> _"The problem with your sink is that I have no idea how to fix it."_  
 > _"I only wrote that poem to test my printer!"_
 
 Thanks for visiting. Please tell your dog I said Hi! 🐶
