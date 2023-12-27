@@ -2,5 +2,9 @@
 
 <!-- Layout for all non-blog and non-project sections. -->
 {% block content %}
+{% if section.description %}
+<p class="subtitle">{{ section.description }}</p>
+{% endif %}
 {{ section.content | safe }}
+{% include "partials/project-loop.html" %}
 {% endblock content %}
