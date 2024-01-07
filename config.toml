@@ -1,6 +1,6 @@
-base_url = "https://semanticdata.github.io/zola-mix/"
-title = "Miguel Pimentel"
-description = "A Zola theme without a real plan."
+base_url = "https://semanticdata.github.io/zola-bulma/"
+title = "Zola Bulma"
+description = "A Zola theme using Bulma."
 
 compile_sass = true
 build_search_index = false
